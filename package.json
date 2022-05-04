@@ -1,0 +1,39 @@
+{
+  "name": "koa-api",
+  "version": "1.0.0",
+  "description": "koa-api",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon",
+    "test": "jest"
+  },
+  "keywords": [
+    "koa",
+    "ts",
+    "mysql"
+  ],
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^27.5.0",
+    "@types/koa": "^2.13.4",
+    "@types/koa-router": "^7.4.4",
+    "@types/log4js": "^2.3.5",
+    "dotenv": "^16.0.0",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "log4js": "^6.4.6"
+  },
+  "devDependencies": {
+    "@types/supertest": "^2.0.12",
+    "@types/typescript": "^2.0.0",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.3",
+    "ts-jest": "^27.1.4"
+  }
+}
